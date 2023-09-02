@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+    color: floralwhite;
+}
+ html,body{
+    height: 100%;
+    width: 100%;
+ }
+
+ #navi{
+    height: 145px;
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-start;
+    padding:0 150;
+    position: fixed;
+    z-index:99 ;
+ }
+
+ #cursor{
+    
+ }
+
+ #navi img{
+    height: 60px;
+ }
+
+ video{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+ }
+
+ #main{
+    position: relative;
+    background-color: rgba(0,0,0,0.3);
+ }
+
+ #page1{
+    height: 100vh;
+    width: 100%;
+   position: relative;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+
+ }
+
+ #page1 h1{
+   font-size:100px;
+   font-weight: 900;
+   position: relative;
+
+ }
+#page1 h1::before{
+   content:"EAT. DRINK. GOLF.";
+   position: absolute;
+   color: black;
+   top:-6px;
+   left:-6px;
+   -webkit-text-stroke:2px rgba(73, 86, 26, 0.985);
+   z-index: -1;
+}
+ #page1 h2{
+   font-size:30px;
+   font-weight: 800;
+   margin-top: 10px;
+   margin-bottom:20px ;
+}
+#page1 p{
+   font-size: 20px;
+   font-weight: 500;
+   width: 40%;
+}
+
+#page2{
+   height:100vh;
+   width: 100%;
+}
