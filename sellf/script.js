@@ -1,9 +1,12 @@
 var crsr= document.querySelector("#cursor")
-document.addEventListener("mousemove",function(dets){
-   crsr.style.left=dets.x+"px"
-   crsr.stylr.top=dets.y+"px"
-});
+var blurr= document.querySelector("#blurr")
 
+document.addEventListener("mousemove",function(dets){
+    crsr.style.left=dets.x + "px";
+    crsr.style.top=dets.y + "px";
+    blurr.style.left=dets.x -250 + "px";
+    blurr.style.top=dets.y -250 + "px";
+})
 gsap.to("#navi",{
   
    backgroundColor :"#000",
