@@ -8,7 +8,6 @@
  html,body{
     height: 00%;
     width: 100%;
-   perspective: 800px; 
  }
  #cursor{
    height: 25px;
@@ -248,5 +247,5 @@ background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02
 }
  
 .card:hover{
-   transform: rotate3d(-4,4,1,20deg);
+   transform: rotate3d(-4,4,1,25deg);
 }
