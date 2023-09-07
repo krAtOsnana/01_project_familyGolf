@@ -104,7 +104,7 @@ gsap.from(".card",{
 })
 
 gsap.from("#page4 h1",{
-    y:50,
+    y:60,
     scrollTrigger:{
         trigger:"#page4 h1",
         scroller:"body",
