@@ -88,3 +88,17 @@ gsap.to("#colon2",{
         scrub:4
     }
 })
+gsap.from(".card",{
+    opacity:1,
+    scale:0.8,    
+    stagger:0.3,
+    scrollTrigger:{
+        trigger:".card",
+        scroller:"body",
+        // markers:true,
+        start:"top 70%",
+        end:"top 65%",
+        scrub:2
+
+    }
+})
