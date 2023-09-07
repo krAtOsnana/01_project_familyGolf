@@ -282,3 +282,18 @@ background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02
    right:15% ;
    bottom: 15%;
 }
+#page4
+{
+   height: 50vh;
+   width:100%;
+   background-color: red;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.elem{
+   height:70% ;
+   width: 20%;
+   overflow: hidden;
+}

@@ -89,7 +89,7 @@ gsap.to("#colon2",{
     }
 })
 gsap.from(".card",{
-    opacity:1,
+    opacity:0,
     scale:0.8,    
     stagger:0.3,
     scrollTrigger:{
