@@ -282,18 +282,93 @@ background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02
    right:15% ;
    bottom: 15%;
 }
-#page4
-{
+#page4{
+
    height: 50vh;
    width:100%;
-   background-color: red;
+   /* background-color: red; */
    display: flex;
    align-items: center;
    justify-content: center;
-
+   gap: 70px;
+   position: relative;
 }
 .elem{
-   height:70% ;
-   width: 20%;
+   height:60% ;
+   width: 26%;
    overflow: hidden;
+   border-radius: 20px;
+   position: relative;
 }
+
+.elem h4{
+   height: 100%;
+   width: 100%;
+   background-color: #95c11e;
+   display: flex;
+   color: black;
+   align-items: center;
+   font-weight: 700;
+   justify-content: center;
+   font-size: 40px;
+   position: absolute;
+   z-index: 10;
+   transition: all ease 0.5s;
+
+   }
+
+   .elem img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      scale: 1.1;
+      transition: all ease 0.5s;
+
+   }
+
+   .elem:hover h4{
+      color: white;
+      background-color: transparent;
+   }
+   .elem:hover img{
+
+     scale: 1;
+   }
+   #page4 h1{
+      position: absolute;
+      font-weight: 800;
+      font-size: 80px;
+      top: -10%;
+      color: black;
+      -webkit-text-stroke:1px #ffffff;
+
+
+   }
+   #fotter{
+      height: 40vh;
+      width: 100%;
+      background: linear-gradient(to left bottom,#96c70e,#11d535);
+   }
+
+   #page1 #arrow{
+      height: 200px;
+      width: 200px;
+      background-color:transparent;
+      border:2px solid  #95c11e;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      left: -2%;
+      bottom: -2%;
+      transition: 0.5s;
+   }
+   #page1 #arrow i{
+      font-size: 50px;
+      font-weight: 40;
+   }
+   #page1 #arrow:hover{
+      scale: 0.5;
+      background-color: #95c11e;
+   }
